@@ -1,0 +1,6 @@
+name: UniCore
+version: "${version}"
+
+main: net.computermeowse.uni.core.UniCorePlugin
+bootstrapper: net.computermeowse.uni.core.UniCoreBootstrapper
+api-version: "${minecraft_version}"

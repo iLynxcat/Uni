@@ -1,0 +1,26 @@
+[versions]
+java = "25"
+minecraft = "26.1.2"
+paper = "26.1.2.build.+"
+paperweight = "2.0.0-beta.21"
+
+lombok = "1.18.46"
+storage = "0.1.2"
+
+placeholderapi = "2.12.3"
+luckperms-api = "5.5"
+luckperms-plugin = "5.5.53"
+via = "5.11.0"
+oldgenerator = "1.2.0"
+
+[libraries]
+lombok = { module = "org.projectlombok:lombok", version.ref = "lombok" }
+storage = { module = "com.github.ilynxcat:PluginStorage", version.ref = "storage" }
+
+placeholderapi = { module = "me.clip:placeholderapi", version.ref = "placeholderapi" }
+luckperms-api = { module = "net.luckperms:api", version.ref = "luckperms-api" }
+
+[plugins]
+run-paper = { id = "xyz.jpenilla.run-paper", version = "3.0.2" }
+shadow = { id = "com.gradleup.shadow", version = "9.4.1" }
+paperweight-patcher = { id = "io.papermc.paperweight.patcher", version.ref = "paperweight" }

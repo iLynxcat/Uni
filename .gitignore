@@ -1,0 +1,38 @@
+# Intellij
+/.idea/*
+!/.idea/runConfigurations
+*.iml
+*.ipr
+*.iws
+out/
+
+# Eclipse
+.classpath
+.project
+.settings/
+
+# Gradle
+!gradle-wrapper.jar
+.gradle/
+build/
+*/build/
+
+# Maven
+build.xml
+log/
+target/
+dependency-reduced-pom.xml
+
+# misc build
+build/
+bin/
+dist/
+manifest.mf
+*.jar
+
+/unisrc-server/build.gradle.kts
+/unisrc-server/src/minecraft
+/paper-server/
+
+/unisrc-api/build.gradle.kts
+/paper-api/
